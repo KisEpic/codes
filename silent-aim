@@ -1,15 +1,3 @@
-getgenv().Prediction =  Prediction
-
-getgenv().FOV =  FOV
-
-getgenv().AimKey =  Key
-
-getgenv().Filled = Filled
-
-getgenv().Thickness = Thickness
-
-getgenv().Transparency = Transparency
-
 --[[
 		Do Not Edit Anything Beyond This Point. 
 ]]
