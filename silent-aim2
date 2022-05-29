@@ -1,8 +1,8 @@
 getgenv().Prediction =  (  .18  )   -- [ PREDICTION: Lower Prediction: Lower Ping | Higher Prediction: Higher Ping  ]
 
-getgenv().FOV =  (  350  )   -- [ FOV RADIUS: Increases Or Decreases FOV Radius ]
+getgenv().FOV =  getgenv().Multiplier
 
-getgenv().AimKey =  (  "c"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
+getgenv().AimKey =  nil
 
 getgenv().DontShootThesePeople = {  -- [ WHITELIST: List Of Who NOT To Shoot, edit like this. "Contain quotations with their name and then a semi-colon afterwards for each line" ; ]
 
@@ -33,7 +33,7 @@ getgenv = getgenv
 Drawing = Drawing
 
 local FOV_CIRCLE = Drawing.new("Circle")
-FOV_CIRCLE.Visible = false
+FOV_CIRCLE.Visible = true
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
 FOV_CIRCLE.Transparency = 1
